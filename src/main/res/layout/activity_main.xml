@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Which country has the heighest population?"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="301dp"
+        android:text="a. China"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView2"
+        android:layout_width="288dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="289dp"
+        android:text="b. Russia"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView3"
+        android:layout_width="329dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="237dp"
+        android:text="c. Bangladesh"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="d. India"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Choose two right sentences"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView5"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="289dp"
+        android:text="a. The IPL consists of teams representing major Indian cities"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView6"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="289dp"
+        android:text="b. The UEFA Champions League is an annual football competition"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView7"
+        android:layout_width="398dp"
+        android:layout_height="97dp"
+        android:layout_marginEnd="289dp"
+        android:text="c. Denmark is renowned for being the largest country in Europe by land area"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView8"
+        android:layout_width="398dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="289dp"
+        android:text="d. The Pacific Ocean is the smallest ocean"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="120dp">
+
+    </Button>
+
+</LinearLayout>
